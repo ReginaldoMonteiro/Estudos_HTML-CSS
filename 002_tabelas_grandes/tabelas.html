@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+    <style>
+        @charset "utf-8";
+        *{margin: 0px;padding: 0px;}
+        h1{
+            text-align: center;
+            margin-top: 20px;
+        }
+        table{
+            margin: auto;
+            margin-top: 50px;
+            border-collapse: collapse;            
+        }
+        thead{
+            background-color:aqua;
+            font-size: 2em;
+        }
+        td{
+            font-weight: bold;
+        }
+        tfoot{
+            background-color: aqua;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            width: 300px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estudo de Tabela</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+                <th> % População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>41 262 199 </td>
+                <td>21,9% </td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>19 597 330 </td>
+                <td>10,1%</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>15 989 929 </td>
+                <td>8,2% </td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14 985 284</td>
+                <td>7,1% </td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>10 444 526</td>
+                <td>5,4% </td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>10 693 929 </td>
+                <td>5,4%</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td>Estados: Seis (6)</td>
+                <td>População: <strong>Muita gente</strong> </td>
+            </tr>
+
+        </tfoot>
+    </table>
+    
+</body>
+</html>
