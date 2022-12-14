@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio e Cheackbox</title>
+</head>
+<body>
+    <form action="" method="post" autocomplete="on">
+
+
+
+        
+        <fieldset>
+            <legend>Color, Range e File</legend>
+            <label for="cor">Cor</label>
+            <input type="color" name="cor" id="cor"></input> <br>
+
+            <label for="nivel">Nível de Satisfação:</label>
+            <input type="range" name="nivel" id="nivel" min="1" max="10"><br>
+
+            <label for="foto"> Foto do perfil:</label>
+            <input type="file" name="foto" id="foto">
+        </fieldset>
+        <fieldset>
+            <legend> Altura</legend>
+            <label for="alto">Alto</label>
+            <input type="radio" name="altura" id="alto">        
+             
+            <label for="baixo"></label>
+            <input type="radio" name="altura" id="baixo">
+        </fieldset>
+        <fieldset> 
+            <legend>Estilos Musicais</legend>
+            <input type="checkbox" name="samba" id="samba"><label for="samba">Samba</label><br>
+            <input type="checkbox" name="rock" id="rock"><label for="rock">Rock</label><br>
+            <input type="checkbox" name="pop" id="pop"><label for="pop">Pop</label><br>
+            <input type="checkbox" name="funk" id="funk"><label for="funk">Funk</label><br>
+        </fieldset>
+
+    </form>
+</body>
+</html>
