@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia Features</title>
+   <style>
+   /*Declaração Gerais*/
+   @media all{
+    *{ margin: 0px; padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;}
+
+        html, body{
+            width: 100vw;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: contain;
+            
+        }
+        h1{
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
+            padding: 10px;
+        }
+   }
+
+        
+        /*Declaração Portrait*/
+      @media screen and (orientation: portrait){
+        body{
+        background-image: url(../mq003/imagens/cev-portrait.jpg);
+        background-position: center top;
+        }        
+      }             
+        
+        
+   /*Declaração landscape*/
+   @media screen and (orientation: landscape){
+    body{
+        background-image: url(../mq003/imagens/cev-landscape.jpg);
+        background-position: left bottom;
+    }
+   }
+ 
+   </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo</h1>
+</body>
+</html>
