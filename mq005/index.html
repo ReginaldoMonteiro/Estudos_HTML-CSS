@@ -5,19 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="stilos/style.css">
 </head>
 <body>
     <header>
-        <h1></h1>
-        <menu>
+        <h1>Site, Isso é Um Site</h1>
+         <i  id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>  
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
             </ul>
         </menu>
     </header>
-    
+    <main>
+        <article>
+      <h2> Estudo de Media Queries</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsa cumque, cupiditate, voluptas assumenda aperiam nemo distinctio fuga tempora sint numquam reprehenderit ipsum, velit natus consequatur aut explicabo quam animi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur velit expedita, recusandae nostrum nemo quis labore illo neque vel incidunt iste a eum, ut aperiam eligendi blanditiis natus laborum sunt.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus ullam ipsam rem eaque, error vero perferendis modi magnam minima dicta rerum blanditiis veritatis earum harum incidunt eum dolore optio possimus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, repudiandae obcaecati blanditiis error animi dolor atque vero labore, officiis numquam unde fugit tempora rerum provident odio, debitis quisquam architecto dolores!
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptate non dicta suscipit, officia adipisci! Voluptas ipsa sed, iure officiis blanditiis fuga perferendis consequatur, nostrum deleniti porro quidem, tempora numquam!Loremlo Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad blanditiis temporibus placeat magni veritatis obcaecati dolore ex praesentium! Praesentium labore sint hic odit deleniti quam fugiat eveniet officiis quisquam earum.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sunt ea accusantium ullam, ipsum nulla similique qui voluptatem modi in placeat incidunt, excepturi laboriosam esse perferendis dicta quidem error est.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aliquid, numquam consectetur quas, nulla recusandae a facilis dolores nesciunt expedita tempora minima necessitatibus quidem delectus dolorum ab iste, assumenda id.
+      </p>
+        </article>
+    </main>
+    <script>
+      function clickMenu(){
+      if (itens.style.display =='block'){
+        itens.style.display = 'none'
+      } else{
+        itens.style.display = 'block'
+      }
+      }
+    </script>
 </body>
 </html>
